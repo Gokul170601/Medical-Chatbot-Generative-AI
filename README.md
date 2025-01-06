@@ -32,8 +32,8 @@ Medical-Chatbot-Generative-AI is a project aimed at developing an AI-powered cha
     ```
 
 5. Run the chatbot application:
-        ```sh
-        python app.py
-        ```
+   ```sh
+   python app.py
+   ```
 
- Interact with the chatbot through the command line interface or web interface, depending on the implementation.
+ Interact with the chatbot through web interface
