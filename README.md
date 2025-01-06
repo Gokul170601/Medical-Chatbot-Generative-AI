@@ -30,3 +30,10 @@ Medical-Chatbot-Generative-AI is a project aimed at developing an AI-powered cha
     ```sh
     pip install -r requirements.txt 
     ```
+
+5. Run the chatbot application:
+        ```sh
+        python app.py
+        ```
+
+ Interact with the chatbot through the command line interface or web interface, depending on the implementation.
