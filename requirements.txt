@@ -3,7 +3,7 @@ langchain == 0.3.14
 flask
 pypdf == 5.1.0
 python-dotenv ==1.0.1
-langchain-pinecone == 0.2.0
+langchain-pinecone
 langchain-community == 0.3.14
 langchain-groq ==0.2.2
 -e .
