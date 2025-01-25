@@ -28,7 +28,7 @@ doc_search=PineconeVectorStore.from_existing_index(
 retriver=doc_search.as_retriever(
     search_type="similarity", search_kwaegs={"k":3})
 
-llm = ChatGroq(temperature=0, groq_api_key=GROG_API_KEY, model_name="llama-3.1-70b-versatile")
+llm = ChatGroq(temperature=0, groq_api_key=GROG_API_KEY, model_name="llama-3.3-70b-versatile")
 
 prompt = ChatPromptTemplate.from_messages(
     [
@@ -52,4 +52,4 @@ def chat():
     return str(response['answer'])
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8000,debug=True)
